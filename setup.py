@@ -216,6 +216,7 @@ def do_setup(package_data):
             "omegaconf<2.1",
             'numpy<1.20.0; python_version<"3.7"',
             'numpy; python_version>="3.7"',
+			"pandas",
             "regex",
             "sacrebleu>=1.4.12",
             "torch",
