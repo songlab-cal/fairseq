@@ -218,6 +218,7 @@ def do_setup(package_data):
             'numpy; python_version>="3.7"',
 			"pandas",
             "regex",
+			"requests",
             "sacrebleu>=1.4.12",
             "torch",
             "tqdm",
